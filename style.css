@@ -40,10 +40,17 @@ nav {
    float: right;
 }
 
-nav a {
+a {
     text-decoration: none;
+}
+
+nav a {
     color: white;
     margin: 8px;
+}
+
+.Content a {
+    color: #141c3a
 }
 
 main {
