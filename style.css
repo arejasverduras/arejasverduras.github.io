@@ -1,0 +1,67 @@
+html {
+    background-color: papayawhip;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: auto; 
+}
+
+.mastHead {
+    background-color: #141c3a;
+    color: white;
+    
+    padding: 20px 64px 24px 64px;
+    margin-top: 80px;
+}
+
+#authorImage {
+    width: 25%;
+    border-width: 3px;
+    border-color: #211E2F;
+    border-radius: 100%;
+    float: left;
+}
+
+.headerContent {
+    margin-left: 30%;
+}
+
+nav {
+   float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+main {
+    padding-top: 75px;
+    
+}
+
+.Content {
+    background-color: white;
+    padding: 20px;
+    
+}
+
+table {
+    width: 90%;
+    height: 300px
+}
+
+td {
+    width: 50%;
+}
