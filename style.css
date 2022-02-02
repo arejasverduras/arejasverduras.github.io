@@ -1,3 +1,9 @@
+* {
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     background-color: papayawhip;
     background-image: url("images/background.jpg");
@@ -8,13 +14,10 @@ html {
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;   
-   
-    
 }
 
 header, main, footer {
-    max-width: 100%;
+    
     margin: auto; 
 }
 
@@ -25,7 +28,7 @@ header, main, footer {
 .mastHead {
     background-color: #141c3a;
     color: white;
-    
+    height: 100px;
     padding: 20px 64px 24px 64px;
     margin-top: 80px;
 }
@@ -47,7 +50,7 @@ nav {
     max-width: 960px;
     margin: auto;
     text-align: right; 
-    background-color: #f7a74c;  
+    background-color: #ffc583;  
 }
 
 a {
