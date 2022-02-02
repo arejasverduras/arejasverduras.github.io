@@ -16,6 +16,8 @@ header, main, footer {
     margin: auto; 
 }
 
+/* Header styles */
+
 .mastHead {
     background-color: #141c3a;
     color: white;
@@ -27,7 +29,7 @@ header, main, footer {
 #authorImage {
     width: 15%;
     border-width: 3px;
-    border-color: #211E2F;
+    border-color: #141c3a;
     border-radius: 100%;
     float: left;
 }
@@ -36,8 +38,12 @@ header, main, footer {
     margin-left: 30%;
 }
 
+/* Nav styles */ 
 nav {
-    margin-left: 30%;
+    max-width: 960px;
+    margin: auto;
+    text-align: right;
+    
 }
 
 a {
@@ -46,25 +52,59 @@ a {
 
 nav a {
     color: white;
+    background-color: darkgray;
     margin: 8px;
+    padding: 8px;
 }
 
-.Content a {
-    color: #141c3a
-}
 
+/* Start of main section */
 main {
     padding-top: 75px;
     max-width: 960px;
     
 }
 
+h2 {
+    text-align: left;
+}
+
+
+
 .Content {
     background-color: white;
+    text-align: center;
+    
+}
+.Content a {
+    color: #141c3a
+}
+
+.sectionTitle {
+    padding: 20px;
+    background-color: #141c3a;
+    color: white;
+}
+
+
+
+/* Portfolio items with layouts left and right */
+.projectL {
+    text-align: left;
     padding: 20px;
     
 }
 
+.projectR {
+    padding: 20px;
+    background-color: darkgray;
+}
+
+.screenshot {
+    width: 100%;
+}
+
+/* Table styles */
 table {
     width: 90%;
     height: 300px
@@ -72,7 +112,9 @@ table {
 
 td {
     width: 50%;
+    vertical-align: top;
 }
-.screenshot {
-    width: 100%;
+
+.projectR td {
+    text-align: right;
 }
