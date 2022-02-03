@@ -1,3 +1,5 @@
+
+/* Universal Styles */
 * {
     margin: 0;   
     padding: 0;
@@ -15,7 +17,9 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+h2 {
+    text-align: left;
+}
 
 header, main, footer { 
     margin: 0px auto; 
@@ -25,27 +29,16 @@ header, main, footer {
 
 /* Header styles */
 
-.mastHead {
-    background-color: #141c3a;
-    color: white;
-    height: 100px;
-    padding: 20px 64px 24px 64px;
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
     margin-top: 80px;
+    z-index:3;
 }
 
-#authorImage {
-    width: 15%;
-    border-width: 3px;
-    border-color: #141c3a;
-    border-radius: 100%;
-    float: left;
-}
+/* Nav styles */
 
-.headerContent {
-    margin-left: 30%;
-}
-
-/* Nav styles */ 
 nav {
     max-width: 960px;
     margin: 0 auto;
@@ -70,16 +63,35 @@ nav a:hover {
     color: #ffb764;
 }
 
-/* Start of main section */
+
+/* Header section */
+.mastHead {
+    background-color: #141c3a;
+    color: white;
+    height: 100px;
+    padding: 20px 64px 24px 64px;  
+}
+
+#authorImage {
+    width: 15%;
+    border: 3px solid white;
+    border-radius: 100%;
+    float: left;
+}
+
+#authorImage:hover {
+    width: 25%;
+}
+
+.headerContent {
+    margin-left: 30%;
+}
+
+/* Main section*/
 main {
-    margin-top: 100px;
+    position: relative;
+    top: 200px;
 }
-
-h2 {
-    text-align: left;
-}
-
-
 
 .Content {
     background-color: white;
@@ -96,9 +108,10 @@ h2 {
     padding: 20px;
     background-color: #141c3a;
     color: white;
+    position: sticky;
+    top: 119px;
+    border-bottom: 3px solid white;
 }
-
-
 
 /* Portfolio items with layouts left and right */
 .projectL {
