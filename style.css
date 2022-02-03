@@ -43,7 +43,10 @@ nav {
     max-width: 960px;
     margin: 0 auto;
     text-align: right; 
-    background-color: #ffc583;  
+    background-color: #ffc583; 
+    display: block;
+    position: relative;
+    right: 0px;
 }
 
 a {
@@ -68,7 +71,7 @@ nav a:hover {
 .mastHead {
     background-color: #141c3a;
     color: white;
-    height: 100px;
+    
     padding: 20px 64px 24px 64px;  
 }
 
@@ -76,7 +79,11 @@ nav a:hover {
     width: 15%;
     border: 3px solid white;
     border-radius: 100%;
-    float: left;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    z-index: 3;
+    
 }
 
 #authorImage:hover {
@@ -84,7 +91,10 @@ nav a:hover {
 }
 
 .headerContent {
-    margin-left: 30%;
+   display: inline-block;
+   position: relative;
+   left: 50px;
+   vertical-align: top;
 }
 
 /* Main section*/
