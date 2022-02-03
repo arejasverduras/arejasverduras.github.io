@@ -8,17 +8,17 @@ html {
     background-color: papayawhip;
     background-image: url("images/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat; 
-    
+    background-repeat: no-repeat;    
 }
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header, main, footer {
-    
-    margin: auto; 
+
+
+header, main, footer { 
+    margin: 0px auto; 
 }
 
 
@@ -48,7 +48,7 @@ header, main, footer {
 /* Nav styles */ 
 nav {
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
     text-align: right; 
     background-color: #ffc583;  
 }
@@ -58,10 +58,12 @@ a {
 }
 
 nav a {
-    color: white;
-    background-color: #141c3a;
+    color: #141c3a;
+    background-color: white;
     margin: 8px;
-    padding: 8px;
+    padding: 18px;
+    
+    border-radius: 70px 50px;
 }
 
 nav a:hover {
@@ -70,9 +72,7 @@ nav a:hover {
 
 /* Start of main section */
 main {
-    padding-top: 75px;
-    max-width: 960px;
-    
+    margin-top: 100px;
 }
 
 h2 {
@@ -84,6 +84,8 @@ h2 {
 .Content {
     background-color: white;
     text-align: center;
+    max-width: 960px;
+    margin: 0px auto;
     
 }
 .Content a {
