@@ -140,11 +140,6 @@ main {
 }
 
 
-.screenshot:hover {
-    background-image: none;
-    background-color: black;
-}
-
 /* Table styles */
 table {
     width: 90%;
