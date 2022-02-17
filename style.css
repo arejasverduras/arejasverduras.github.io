@@ -140,6 +140,7 @@ main {
 }
 
 
+
 /* Table styles */
 table {
     width: 90%;
@@ -153,4 +154,36 @@ td {
 
 .projectR td {
     text-align: right;
+}
+
+/*Flex styles */
+
+.projectFlex {
+
+ padding: 20px;
+
+}
+
+.projectTitle {
+    text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.projectText {
+    margin-right: 20px;
+}
+
+.projectImageHolder {
+    display: inline-flex;
+    flex: 1.5 2 200px;
+}
+
+.projectFlex img {
+    max-width: 100%;
+
 }
