@@ -159,31 +159,32 @@ td {
 /*Flex styles */
 
 .projectFlex {
-
+ max-width: 100%;
  padding: 20px;
+ display: flex;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+
 
 }
 
 .projectTitle {
+    display: inline-flex;
     text-align: left;
+    width: 300px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap:wrap;
-}
-
-.projectText {
+.projectTitle h3 {
     margin-right: 20px;
 }
 
+
 .projectImageHolder {
     display: inline-flex;
-    flex: 1.5 2 200px;
+    max-width: 620px;
+    flex: 1 1 200px;
 }
 
 .projectFlex img {
     max-width: 100%;
-
 }
