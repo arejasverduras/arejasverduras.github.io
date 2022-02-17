@@ -1,7 +1,7 @@
 
 /* Universal Styles */
 * {
-    margin: 10;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -33,7 +33,7 @@ header {
     position: sticky;
     top: 0px;
     width: 100%;
-    margin-top: 80px;
+
     z-index:3;
 }
 
@@ -86,9 +86,7 @@ nav a:hover {
 
 }
 
-#authorImage:hover {
-    width: 25%;
-}
+
 
 .headerContent {
    display: inline-block;
@@ -176,6 +174,7 @@ td {
 
 .projectTitle h3 {
     margin-right: 20px;
+
 }
 
 
@@ -187,4 +186,54 @@ td {
 
 .projectFlex img {
     max-width: 100%;
+}
+
+@media only screen and (max-width:976px) {
+
+
+    .projectTitle {
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .projectTitle h3 {
+        font-size: 3em;
+    }
+    .projectTitle p {
+        max-width: 30%;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    .projectImageHolder {
+        max-width: 100%;
+    }
+
+    header {
+        margin-top: 0px;
+    }
+
+    .mastHead {
+        margin-top: 0;
+        max-height: 90px;
+    }
+
+    .sectionTitle {
+        display: none;
+    }
+
+    nav {
+        visibility: collapse;
+    }
+
+#titlesub {
+    display: none;
+}
+
+    #authorImage {
+        max-height: 90px;
+        width:auto;
+    }
+
+
 }
