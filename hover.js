@@ -1,1 +1,1 @@
-let screenshot = document.getElementById("screenshot")
+let screenshot = document.getElementById("screenshot");
